@@ -8,3 +8,16 @@ function activeButtonById(id) {
     activeButton.classList.remove('font-medium', 'text-[#111111B3]');
 
 }
+
+function getInputFieldValueById(id){
+    const inputValue = document.getElementById(id).value;
+    const inputNumber = parseFloat(inputValue);
+    return inputNumber;
+}
+
+function getTextFieldValueById(id){
+    const textValue = document.getElementById(id).innerText;
+    const textNumber = parseFloat(textValue);
+    return textNumber;
+}
+ 
