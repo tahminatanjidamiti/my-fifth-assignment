@@ -20,4 +20,13 @@ function getTextFieldValueById(id){
     const textNumber = parseFloat(textValue);
     return textNumber;
 }
+
+function showSectionById(id){
+    // hide all the section
+    document.getElementById('show-donation-section').classList.add('hidden');
+    document.getElementById('show-history-section').classList.add('hidden');
+    // show the section with the provided id as parameter
+    document.getElementById(id).classList.remove('hidden');
+    
+}
  
