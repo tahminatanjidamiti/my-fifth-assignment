@@ -6,8 +6,6 @@ function goIndex(){
 }
 
 
-let activeButton = document.getElementById('show-active-donation');
-
 document.getElementById('show-active-donation')
 .addEventListener('click', function(){
     activeButtonById('show-active-donation');
